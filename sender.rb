@@ -83,7 +83,7 @@ class Review
       "\n\n#{stars}",
       "Version: #{version} | #{date}",
       "#{[title, text].join(" ")}",
-      "<#{url}|Ответить в Google play>"
+      "<#{url}|Respond via Google play>"
     ].join("\n")
   end
 end
