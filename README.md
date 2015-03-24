@@ -38,7 +38,7 @@ It is intended to be fired once a day via cron.
 
 ### Gsutil configuration
 1. Run `gsutil/gsutil config` and follow the steps.
-2. Once done, there will be a .boto file in your home dir.
+2. Once done, there will be a .boto file in your home dir.  It might be named .boto.conf, make sure you rename it when you copy.
 3. Copy this file to the ./secrets folder and you are good to go.
 
 You can always get the latest gsutil(https://cloud.google.com/storage/docs/gsutil_install) and change this line
